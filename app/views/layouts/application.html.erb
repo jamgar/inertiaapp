@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Inertiaapp</title>
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+
+    <%#= stylesheet_link_tag 'application', media: 'all' %>
+    <%= stylesheet_pack_tag 'application' %>
+    <%= javascript_pack_tag 'application', defer: true %>
+  </head>
+
+  <body class="bg-gray-200">
+    <%= yield %>
+  </body>
+</html>

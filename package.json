@@ -1,0 +1,21 @@
+{
+  "name": "inertiaapp",
+  "private": true,
+  "dependencies": {
+    "@inertiajs/inertia": "^0.6.1",
+    "@inertiajs/inertia-vue": "^0.4.1",
+    "@inertiajs/progress": "^0.2.2",
+    "@rails/actioncable": "^6.0.0",
+    "@rails/activestorage": "^6.0.0",
+    "@rails/ujs": "^6.0.0",
+    "@rails/webpacker": "4.3.0",
+    "tailwindcss": "^1.9.6",
+    "vue": "^2.6.12",
+    "vue-loader": "^15.9.5",
+    "vue-template-compiler": "^2.6.12"
+  },
+  "version": "0.1.0",
+  "devDependencies": {
+    "webpack-dev-server": "^3.11.0"
+  }
+}
