@@ -15,5 +15,10 @@ module Inertiaapp
     # Application configuration can go into files in config/initializers
     # -- all .rb files in that directory are automatically loaded after loading
     # the framework and any gems in your application.
+
+    # Override Rails exception views with client-side views
+    config.exceptions_app = ->(env) do
+      ExceptionsController.action(:render_error).call(env)
+    end
   end
 end
